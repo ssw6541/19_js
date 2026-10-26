@@ -53,7 +53,49 @@
 // AND(&&) : 둘 중 하나라도거짓이면 거짓
 // NOT(!) : 참이면 거짓, 거짓이면 참
 
-let boolA = true;
-let boolB = false;
+// let boolA = true;
+// let boolB = false;
 
-console.log(boolA || boolB); // true
+// console.log(boolA || boolB); // true
+
+// let numberA = 2;
+// let numberB = 2;
+// let numberC = "2";
+
+// // console.log(numberA === numberB);  // true
+// // console.log(numberB === numberC);  // false
+
+// console.log(numberA == numberB);
+// console.log(numberB == numberC);
+
+// let numberA = 2;
+// let numberB = 2;
+// let numberC = "2";
+
+// console.log(numberA !== numberB); // false
+// console.log(numberB !== numberC); // true
+// console.log(numberB != numberC); // false
+
+// let varA = 10;
+// let varB = 20;
+// let varC;
+
+// // null 병합 연산자
+// console.log(varA ?? varB); // 10
+// console.log(varC ?? varB); // 20
+
+// 상항 조건 연산자
+
+// const varA = "안녕하세요";
+
+// console.log(typeof varA);
+// 조건식 ? 참일 떄 명령 수행 : 거짓일때 명령 수행
+// 엑셀(if(조건식, true, false))
+
+// typeof varA === "string"
+//   ? console.log("문자 자료형")
+//   : console.log("문자 자료형이 아님");
+
+// let num = 1;
+
+// num % 2 === 0 ? console.log("짝수") : console.log("홀수");
