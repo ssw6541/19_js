@@ -148,16 +148,16 @@
 // filter
 // arr.filter( callback(item, index, arr) );
 
-let arr = [
-  { name: "이종원", hobby: "축구" },
-  { name: "이정환", hobby: "영화" },
-  { name: "신다민", hobby: "축구" },
-  { name: "김효빈", hobby: "노래" },
-];
+// let arr = [
+//   { name: "이종원", hobby: "축구" },
+//   { name: "이정환", hobby: "영화" },
+//   { name: "신다민", hobby: "축구" },
+//   { name: "김효빈", hobby: "노래" },
+// ];
 
-let filteredArr = arr.filter((item) => item.hobby === "축구");
+// let filteredArr = arr.filter((item) => item.hobby === "축구");
 
-console.log(filteredArr);
+// console.log(filteredArr);
 
 // 출력 결과
 // (2) [Object, Object]
@@ -167,3 +167,13 @@ console.log(filteredArr);
 // 1: Object
 // name: "신다민"
 // hobby: "축구"
+
+// let arr = ["안녕", "나는", "이정환"];
+
+// console.log(arr.join()); // ① 안녕,나는,이정환
+// console.log(arr.join("-")); // ② 안녕-나는-이정환
+
+let arr = [1, 2, 3, 4, 5];
+let result = arr.reduce((acc, item) => acc + item, 0);
+
+console.log(result); // 15
