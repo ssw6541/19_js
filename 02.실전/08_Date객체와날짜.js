@@ -50,7 +50,45 @@
 // console.log(date.getSeconds()); // 0
 // console.log(date.getMilliseconds()); // 0
 
-let date = new Date(2000, 9, 10);
-date.setFullYear(2021);
+// let date1 = new Date(2000, 10, 10, 0, 0, 0, 0);
+// let date2 = new Date(2000, 9, 10);
 
-console.log(date); // Sun Oct 10 2021 00:00:00 GMT+0900 (한국 표준시)
+// console.log("1:", date1);
+// console.log("2:", date2);
+
+// let date = new Date(2000, 9, 10);
+
+// date.setHours(1);
+// date.setMinutes(1);
+// date.setSeconds(1);
+
+// console.log(date); // Tue Oct 10 2000 01:01:01 GMT+0900 (한국 표준시)
+
+// const today = new Date(2000, 9, 10, 22);
+
+// console.log(today.toString()); // Tue Oct 10 2000 22:00:00 GMT+0900 (한국 표준시)
+
+// const today = new Date(2000, 9, 10, 22);
+
+// console.log(today.toLocaleString()); // 2000. 10. 10. 오후 10:00:00
+// console.log(today.toLocaleDateString()); // 2000. 10. 10.
+
+// function moveMonth(date, moveMonth) {
+//   // ①
+//   const curTimestamp = date.getTime(); // ②
+//   const curMonth = date.getMonth(); // ③
+
+//   const resDate = new Date(curTimestamp); // ④
+//   resDate.setMonth(curMonth + moveMonth); //⑤
+
+//   return resDate;
+// }
+
+// const dateA = new Date("2000-10-10");
+// console.log("A: ", dateA); // A : Tue Oct 10 2000 09:00:00 GMT+0900 (한국 표준시)
+
+// const dateB = moveMonth(dateA, 1);
+// console.log("B: ", dateB); // B : Fri Nov 10 2000 09:00:00 GMT+0900 (한국 표준시)
+
+// const dateC = moveMonth(dateA, -1);
+// console.log("C: ", dateC); // C : Sun Sep 10 2000 09:00:00 GMT+0900 (한국 표준시)
